@@ -1,16 +1,23 @@
 {
-  "object": {
-    "pins": [
-      {
-        "package": "FBSnapshotTestCase",
-        "repositoryURL": "https://github.com/uber/ios-snapshot-test-case",
-        "state": {
-          "branch": null,
-          "revision": "6743a701c996d8aa249e1acfbcb4fa7af4365ea6",
-          "version": "7.0.0"
-        }
+  "pins" : [
+    {
+      "identity" : "facebook-ios-sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/facebook/facebook-ios-sdk",
+      "state" : {
+        "revision" : "c19607d535864533523d1f437c84035e5fb101cf",
+        "version" : "14.1.0"
       }
-    ]
-  },
-  "version": 1
+    },
+    {
+      "identity" : "ios-snapshot-test-case",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/uber/ios-snapshot-test-case",
+      "state" : {
+        "revision" : "6743a701c996d8aa249e1acfbcb4fa7af4365ea6",
+        "version" : "7.0.0"
+      }
+    }
+  ],
+  "version" : 2
 }

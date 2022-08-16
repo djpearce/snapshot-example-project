@@ -1,0 +1,27 @@
+name: Unit Tests
+
+on: [pull_request]
+
+jobs:
+  build:
+    runs-on: macos-12
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Select Xcode
+      run: sudo xcode-select -switch /Applications/Xcode_13.4.1.app
+
+    - name: Xcode version
+      run: /usr/bin/xcodebuild -version
+
+# https://developer.apple.com/documentation/xcode-release-notes/xcode-11-release-notes
+# When using xcodebuild, resolving packages may fail to verify SSH fingerprints unless 
+# that fingerprint is already in the ~/.ssh/known_hosts file. (50686014)
+    - name: Add SSH fingerprints to Known Hosts
+      run: for ip in $(dig @8.8.8.8 github.com +short); do ssh-keyscan github.com,$ip; ssh-keyscan $ip; done 2>/dev/null >> ~/.ssh/known_hosts
+
+
+    # This will build the app.
+    - name: Build
+      run: xcodebuild -scheme "ExampleProject" -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 8,OS=15.5'
