@@ -17,6 +17,33 @@
 		9EB6A7D526E3EA4F007DEF4F /* ExampleProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB6A7D426E3EA4F007DEF4F /* ExampleProjectUITests.swift */; };
 		9EB6A7E426E3EA64007DEF4F /* FBSnapshotTestCase in Frameworks */ = {isa = PBXBuildFile; productRef = 9EB6A7E326E3EA64007DEF4F /* FBSnapshotTestCase */; };
 		9EB6A7E526E3EA64007DEF4F /* FBSnapshotTestCase in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 9EB6A7E326E3EA64007DEF4F /* FBSnapshotTestCase */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		E66F3C9B28ADD721009AD05F /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = E66F3C9A28ADD721009AD05F /* Alamofire */; };
+		E66F3C9E28ADD73B009AD05F /* SwiftyJSONAPI in Frameworks */ = {isa = PBXBuildFile; productRef = E66F3C9D28ADD73B009AD05F /* SwiftyJSONAPI */; };
+		E66F3CA128ADD75A009AD05F /* OHHTTPStubs in Frameworks */ = {isa = PBXBuildFile; productRef = E66F3CA028ADD75A009AD05F /* OHHTTPStubs */; };
+		E66F3CA328ADD75A009AD05F /* OHHTTPStubsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E66F3CA228ADD75A009AD05F /* OHHTTPStubsSwift */; };
+		E66F3CA628ADD76F009AD05F /* Heap in Frameworks */ = {isa = PBXBuildFile; productRef = E66F3CA528ADD76F009AD05F /* Heap */; };
+		E66F3CA928ADD784009AD05F /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = E66F3CA828ADD784009AD05F /* SnapKit */; };
+		E66F3CAC28ADD7A3009AD05F /* SailthruMobile in Frameworks */ = {isa = PBXBuildFile; productRef = E66F3CAB28ADD7A3009AD05F /* SailthruMobile */; };
+		E66F3CAF28ADD7BB009AD05F /* Castle in Frameworks */ = {isa = PBXBuildFile; productRef = E66F3CAE28ADD7BB009AD05F /* Castle */; };
+		E66F3CB228ADD7DE009AD05F /* Rswift in Frameworks */ = {isa = PBXBuildFile; productRef = E66F3CB128ADD7DE009AD05F /* Rswift */; };
+		E66F3CB428ADD7DE009AD05F /* RswiftDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = E66F3CB328ADD7DE009AD05F /* RswiftDynamic */; };
+		E66F3CB728ADD7FB009AD05F /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = E66F3CB628ADD7FB009AD05F /* Nuke */; };
+		E66F3CBA28ADD818009AD05F /* ReactiveSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E66F3CB928ADD818009AD05F /* ReactiveSwift */; };
+		E66F3CBD28ADD8AB009AD05F /* ReactiveCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = E66F3CBC28ADD8AB009AD05F /* ReactiveCocoa */; };
+		E66F3CC028ADD8C4009AD05F /* Branch in Frameworks */ = {isa = PBXBuildFile; productRef = E66F3CBF28ADD8C4009AD05F /* Branch */; };
+		E66F3CC328ADD8F4009AD05F /* kustomer-ios in Frameworks */ = {isa = PBXBuildFile; productRef = E66F3CC228ADD8F4009AD05F /* kustomer-ios */; };
+		E66F3CC628ADD987009AD05F /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = E66F3CC528ADD987009AD05F /* Realm */; };
+		E66F3CC828ADD987009AD05F /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E66F3CC728ADD987009AD05F /* RealmSwift */; };
+		E66F3CCB28ADD9B0009AD05F /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E66F3CCA28ADD9B0009AD05F /* IQKeyboardManagerSwift */; };
+		E66F3CCE28ADD9C4009AD05F /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = E66F3CCD28ADD9C4009AD05F /* GoogleSignIn */; };
+		E66F3CD028ADD9C4009AD05F /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E66F3CCF28ADD9C4009AD05F /* GoogleSignInSwift */; };
+		E66F3CD328ADD9E9009AD05F /* Dwifft in Frameworks */ = {isa = PBXBuildFile; productRef = E66F3CD228ADD9E9009AD05F /* Dwifft */; };
+		E66F3CD628ADDA3B009AD05F /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = E66F3CD528ADDA3B009AD05F /* FirebaseAnalytics */; };
+		E66F3CD828ADDA3B009AD05F /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E66F3CD728ADDA3B009AD05F /* FirebaseAnalyticsSwift */; };
+		E66F3CDA28ADDA3B009AD05F /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = E66F3CD928ADDA3B009AD05F /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		E66F3CDC28ADDA3B009AD05F /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = E66F3CDB28ADDA3B009AD05F /* FirebaseCrashlytics */; };
+		E66F3CDE28ADDA3B009AD05F /* FirebasePerformance in Frameworks */ = {isa = PBXBuildFile; productRef = E66F3CDD28ADDA3B009AD05F /* FirebasePerformance */; };
+		E66F3CE128ADDA66009AD05F /* JLRoutes in Frameworks */ = {isa = PBXBuildFile; productRef = E66F3CE028ADDA66009AD05F /* JLRoutes */; };
 		E6FC7B9128AC477C00B6C850 /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = E6FC7B9028AC477C00B6C850 /* FacebookCore */; };
 		E6FC7B9328AC477C00B6C850 /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = E6FC7B9228AC477C00B6C850 /* FacebookLogin */; };
 		E6FC7B9528AC477C00B6C850 /* FacebookShare in Frameworks */ = {isa = PBXBuildFile; productRef = E6FC7B9428AC477C00B6C850 /* FacebookShare */; };
@@ -75,10 +102,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E66F3CB228ADD7DE009AD05F /* Rswift in Frameworks */,
+				E66F3C9B28ADD721009AD05F /* Alamofire in Frameworks */,
+				E66F3CDE28ADDA3B009AD05F /* FirebasePerformance in Frameworks */,
+				E66F3CA628ADD76F009AD05F /* Heap in Frameworks */,
+				E66F3CD028ADD9C4009AD05F /* GoogleSignInSwift in Frameworks */,
+				E66F3CD628ADDA3B009AD05F /* FirebaseAnalytics in Frameworks */,
 				9EB6A7E426E3EA64007DEF4F /* FBSnapshotTestCase in Frameworks */,
 				E6FC7B9128AC477C00B6C850 /* FacebookCore in Frameworks */,
+				E66F3CA128ADD75A009AD05F /* OHHTTPStubs in Frameworks */,
 				E6FC7B9528AC477C00B6C850 /* FacebookShare in Frameworks */,
+				E66F3CAF28ADD7BB009AD05F /* Castle in Frameworks */,
+				E66F3CA328ADD75A009AD05F /* OHHTTPStubsSwift in Frameworks */,
+				E66F3CDA28ADDA3B009AD05F /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				E66F3CCB28ADD9B0009AD05F /* IQKeyboardManagerSwift in Frameworks */,
+				E66F3CC828ADD987009AD05F /* RealmSwift in Frameworks */,
+				E66F3CB728ADD7FB009AD05F /* Nuke in Frameworks */,
+				E66F3CC328ADD8F4009AD05F /* kustomer-ios in Frameworks */,
+				E66F3CBD28ADD8AB009AD05F /* ReactiveCocoa in Frameworks */,
 				E6FC7B9328AC477C00B6C850 /* FacebookLogin in Frameworks */,
+				E66F3CC028ADD8C4009AD05F /* Branch in Frameworks */,
+				E66F3CD828ADDA3B009AD05F /* FirebaseAnalyticsSwift in Frameworks */,
+				E66F3CC628ADD987009AD05F /* Realm in Frameworks */,
+				E66F3CCE28ADD9C4009AD05F /* GoogleSignIn in Frameworks */,
+				E66F3CAC28ADD7A3009AD05F /* SailthruMobile in Frameworks */,
+				E66F3CD328ADD9E9009AD05F /* Dwifft in Frameworks */,
+				E66F3C9E28ADD73B009AD05F /* SwiftyJSONAPI in Frameworks */,
+				E66F3CDC28ADDA3B009AD05F /* FirebaseCrashlytics in Frameworks */,
+				E66F3CBA28ADD818009AD05F /* ReactiveSwift in Frameworks */,
+				E66F3CA928ADD784009AD05F /* SnapKit in Frameworks */,
+				E66F3CE128ADDA66009AD05F /* JLRoutes in Frameworks */,
+				E66F3CB428ADD7DE009AD05F /* RswiftDynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,6 +227,33 @@
 				E6FC7B9028AC477C00B6C850 /* FacebookCore */,
 				E6FC7B9228AC477C00B6C850 /* FacebookLogin */,
 				E6FC7B9428AC477C00B6C850 /* FacebookShare */,
+				E66F3C9A28ADD721009AD05F /* Alamofire */,
+				E66F3C9D28ADD73B009AD05F /* SwiftyJSONAPI */,
+				E66F3CA028ADD75A009AD05F /* OHHTTPStubs */,
+				E66F3CA228ADD75A009AD05F /* OHHTTPStubsSwift */,
+				E66F3CA528ADD76F009AD05F /* Heap */,
+				E66F3CA828ADD784009AD05F /* SnapKit */,
+				E66F3CAB28ADD7A3009AD05F /* SailthruMobile */,
+				E66F3CAE28ADD7BB009AD05F /* Castle */,
+				E66F3CB128ADD7DE009AD05F /* Rswift */,
+				E66F3CB328ADD7DE009AD05F /* RswiftDynamic */,
+				E66F3CB628ADD7FB009AD05F /* Nuke */,
+				E66F3CB928ADD818009AD05F /* ReactiveSwift */,
+				E66F3CBC28ADD8AB009AD05F /* ReactiveCocoa */,
+				E66F3CBF28ADD8C4009AD05F /* Branch */,
+				E66F3CC228ADD8F4009AD05F /* kustomer-ios */,
+				E66F3CC528ADD987009AD05F /* Realm */,
+				E66F3CC728ADD987009AD05F /* RealmSwift */,
+				E66F3CCA28ADD9B0009AD05F /* IQKeyboardManagerSwift */,
+				E66F3CCD28ADD9C4009AD05F /* GoogleSignIn */,
+				E66F3CCF28ADD9C4009AD05F /* GoogleSignInSwift */,
+				E66F3CD228ADD9E9009AD05F /* Dwifft */,
+				E66F3CD528ADDA3B009AD05F /* FirebaseAnalytics */,
+				E66F3CD728ADDA3B009AD05F /* FirebaseAnalyticsSwift */,
+				E66F3CD928ADDA3B009AD05F /* FirebaseAnalyticsWithoutAdIdSupport */,
+				E66F3CDB28ADDA3B009AD05F /* FirebaseCrashlytics */,
+				E66F3CDD28ADDA3B009AD05F /* FirebasePerformance */,
+				E66F3CE028ADDA66009AD05F /* JLRoutes */,
 			);
 			productName = ExampleProject;
 			productReference = 9EB6A7AF26E3EA4E007DEF4F /* ExampleProject.app */;
@@ -248,6 +329,25 @@
 			packageReferences = (
 				9EB6A7E226E3EA64007DEF4F /* XCRemoteSwiftPackageReference "ios-snapshot-test-case" */,
 				E6FC7B8F28AC477C00B6C850 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
+				E66F3C9928ADD721009AD05F /* XCRemoteSwiftPackageReference "Alamofire" */,
+				E66F3C9C28ADD73B009AD05F /* XCRemoteSwiftPackageReference "SwiftyJSONAPI" */,
+				E66F3C9F28ADD75A009AD05F /* XCRemoteSwiftPackageReference "OHHTTPStubs" */,
+				E66F3CA428ADD76F009AD05F /* XCRemoteSwiftPackageReference "heap-ios-sdk" */,
+				E66F3CA728ADD784009AD05F /* XCRemoteSwiftPackageReference "SnapKit" */,
+				E66F3CAA28ADD7A3009AD05F /* XCRemoteSwiftPackageReference "carnival-ios-sdk" */,
+				E66F3CAD28ADD7BB009AD05F /* XCRemoteSwiftPackageReference "castle-ios" */,
+				E66F3CB028ADD7DE009AD05F /* XCRemoteSwiftPackageReference "R.swift" */,
+				E66F3CB528ADD7FB009AD05F /* XCRemoteSwiftPackageReference "Nuke" */,
+				E66F3CB828ADD818009AD05F /* XCRemoteSwiftPackageReference "ReactiveSwift" */,
+				E66F3CBB28ADD8AB009AD05F /* XCRemoteSwiftPackageReference "ReactiveCocoa" */,
+				E66F3CBE28ADD8C4009AD05F /* XCRemoteSwiftPackageReference "ios-branch-deep-linking-attribution" */,
+				E66F3CC128ADD8F4009AD05F /* XCRemoteSwiftPackageReference "kustomer-ios" */,
+				E66F3CC428ADD987009AD05F /* XCRemoteSwiftPackageReference "realm-cocoa" */,
+				E66F3CC928ADD9B0009AD05F /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+				E66F3CCC28ADD9C4009AD05F /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				E66F3CD128ADD9E8009AD05F /* XCRemoteSwiftPackageReference "Dwifft" */,
+				E66F3CD428ADDA3A009AD05F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				E66F3CDF28ADDA66009AD05F /* XCRemoteSwiftPackageReference "JLRoutes" */,
 			);
 			productRefGroup = 9EB6A7B026E3EA4E007DEF4F /* Products */;
 			projectDirPath = "";
@@ -631,6 +731,158 @@
 				version = 7.0.0;
 			};
 		};
+		E66F3C9928ADD721009AD05F /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.9.1;
+			};
+		};
+		E66F3C9C28ADD73B009AD05F /* XCRemoteSwiftPackageReference "SwiftyJSONAPI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/thomassnielsen/SwiftyJSONAPI";
+			requirement = {
+				kind = revision;
+				revision = b6afc95bae32f0ec7283b00490e223e9dfef6dce;
+			};
+		};
+		E66F3C9F28ADD75A009AD05F /* XCRemoteSwiftPackageReference "OHHTTPStubs" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AliSoftware/OHHTTPStubs";
+			requirement = {
+				kind = exactVersion;
+				version = 9.1.0;
+			};
+		};
+		E66F3CA428ADD76F009AD05F /* XCRemoteSwiftPackageReference "heap-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/heap/heap-ios-sdk";
+			requirement = {
+				kind = exactVersion;
+				version = 8.2.0;
+			};
+		};
+		E66F3CA728ADD784009AD05F /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = exactVersion;
+				version = 5.0.1;
+			};
+		};
+		E66F3CAA28ADD7A3009AD05F /* XCRemoteSwiftPackageReference "carnival-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/carnivalmobile/carnival-ios-sdk";
+			requirement = {
+				kind = exactVersion;
+				version = 12.1.1;
+			};
+		};
+		E66F3CAD28ADD7BB009AD05F /* XCRemoteSwiftPackageReference "castle-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/castle/castle-ios";
+			requirement = {
+				kind = exactVersion;
+				version = 3.0.7;
+			};
+		};
+		E66F3CB028ADD7DE009AD05F /* XCRemoteSwiftPackageReference "R.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mac-cain13/R.swift.Library";
+			requirement = {
+				kind = exactVersion;
+				version = 5.4.0;
+			};
+		};
+		E66F3CB528ADD7FB009AD05F /* XCRemoteSwiftPackageReference "Nuke" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kean/Nuke";
+			requirement = {
+				kind = exactVersion;
+				version = 9.1.2;
+			};
+		};
+		E66F3CB828ADD818009AD05F /* XCRemoteSwiftPackageReference "ReactiveSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveCocoa/ReactiveSwift";
+			requirement = {
+				kind = exactVersion;
+				version = 6.6.0;
+			};
+		};
+		E66F3CBB28ADD8AB009AD05F /* XCRemoteSwiftPackageReference "ReactiveCocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveCocoa/ReactiveCocoa";
+			requirement = {
+				kind = exactVersion;
+				version = 11.2.1;
+			};
+		};
+		E66F3CBE28ADD8C4009AD05F /* XCRemoteSwiftPackageReference "ios-branch-deep-linking-attribution" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/BranchMetrics/ios-branch-deep-linking-attribution";
+			requirement = {
+				kind = exactVersion;
+				version = 0.35.1;
+			};
+		};
+		E66F3CC128ADD8F4009AD05F /* XCRemoteSwiftPackageReference "kustomer-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kustomer/kustomer-ios";
+			requirement = {
+				kind = exactVersion;
+				version = 2.7.1;
+			};
+		};
+		E66F3CC428ADD987009AD05F /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-cocoa";
+			requirement = {
+				kind = exactVersion;
+				version = 10.28.1;
+			};
+		};
+		E66F3CC928ADD9B0009AD05F /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager";
+			requirement = {
+				kind = exactVersion;
+				version = 6.5.6;
+			};
+		};
+		E66F3CCC28ADD9C4009AD05F /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = exactVersion;
+				version = 6.2.2;
+			};
+		};
+		E66F3CD128ADD9E8009AD05F /* XCRemoteSwiftPackageReference "Dwifft" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jflinter/Dwifft";
+			requirement = {
+				kind = revision;
+				revision = 6fec2bc0246091b3e17a9d42e722fb98e05ac3ff;
+			};
+		};
+		E66F3CD428ADDA3A009AD05F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = exactVersion;
+				version = 9.2.0;
+			};
+		};
+		E66F3CDF28ADDA66009AD05F /* XCRemoteSwiftPackageReference "JLRoutes" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/joeldev/JLRoutes";
+			requirement = {
+				kind = exactVersion;
+				version = 2.1.1;
+			};
+		};
 		E6FC7B8F28AC477C00B6C850 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/facebook/facebook-ios-sdk";
@@ -646,6 +898,141 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 9EB6A7E226E3EA64007DEF4F /* XCRemoteSwiftPackageReference "ios-snapshot-test-case" */;
 			productName = FBSnapshotTestCase;
+		};
+		E66F3C9A28ADD721009AD05F /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E66F3C9928ADD721009AD05F /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		E66F3C9D28ADD73B009AD05F /* SwiftyJSONAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E66F3C9C28ADD73B009AD05F /* XCRemoteSwiftPackageReference "SwiftyJSONAPI" */;
+			productName = SwiftyJSONAPI;
+		};
+		E66F3CA028ADD75A009AD05F /* OHHTTPStubs */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E66F3C9F28ADD75A009AD05F /* XCRemoteSwiftPackageReference "OHHTTPStubs" */;
+			productName = OHHTTPStubs;
+		};
+		E66F3CA228ADD75A009AD05F /* OHHTTPStubsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E66F3C9F28ADD75A009AD05F /* XCRemoteSwiftPackageReference "OHHTTPStubs" */;
+			productName = OHHTTPStubsSwift;
+		};
+		E66F3CA528ADD76F009AD05F /* Heap */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E66F3CA428ADD76F009AD05F /* XCRemoteSwiftPackageReference "heap-ios-sdk" */;
+			productName = Heap;
+		};
+		E66F3CA828ADD784009AD05F /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E66F3CA728ADD784009AD05F /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		E66F3CAB28ADD7A3009AD05F /* SailthruMobile */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E66F3CAA28ADD7A3009AD05F /* XCRemoteSwiftPackageReference "carnival-ios-sdk" */;
+			productName = SailthruMobile;
+		};
+		E66F3CAE28ADD7BB009AD05F /* Castle */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E66F3CAD28ADD7BB009AD05F /* XCRemoteSwiftPackageReference "castle-ios" */;
+			productName = Castle;
+		};
+		E66F3CB128ADD7DE009AD05F /* Rswift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E66F3CB028ADD7DE009AD05F /* XCRemoteSwiftPackageReference "R.swift" */;
+			productName = Rswift;
+		};
+		E66F3CB328ADD7DE009AD05F /* RswiftDynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E66F3CB028ADD7DE009AD05F /* XCRemoteSwiftPackageReference "R.swift" */;
+			productName = RswiftDynamic;
+		};
+		E66F3CB628ADD7FB009AD05F /* Nuke */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E66F3CB528ADD7FB009AD05F /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = Nuke;
+		};
+		E66F3CB928ADD818009AD05F /* ReactiveSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E66F3CB828ADD818009AD05F /* XCRemoteSwiftPackageReference "ReactiveSwift" */;
+			productName = ReactiveSwift;
+		};
+		E66F3CBC28ADD8AB009AD05F /* ReactiveCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E66F3CBB28ADD8AB009AD05F /* XCRemoteSwiftPackageReference "ReactiveCocoa" */;
+			productName = ReactiveCocoa;
+		};
+		E66F3CBF28ADD8C4009AD05F /* Branch */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E66F3CBE28ADD8C4009AD05F /* XCRemoteSwiftPackageReference "ios-branch-deep-linking-attribution" */;
+			productName = Branch;
+		};
+		E66F3CC228ADD8F4009AD05F /* kustomer-ios */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E66F3CC128ADD8F4009AD05F /* XCRemoteSwiftPackageReference "kustomer-ios" */;
+			productName = "kustomer-ios";
+		};
+		E66F3CC528ADD987009AD05F /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E66F3CC428ADD987009AD05F /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = Realm;
+		};
+		E66F3CC728ADD987009AD05F /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E66F3CC428ADD987009AD05F /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = RealmSwift;
+		};
+		E66F3CCA28ADD9B0009AD05F /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E66F3CC928ADD9B0009AD05F /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+		E66F3CCD28ADD9C4009AD05F /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E66F3CCC28ADD9C4009AD05F /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		E66F3CCF28ADD9C4009AD05F /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E66F3CCC28ADD9C4009AD05F /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		E66F3CD228ADD9E9009AD05F /* Dwifft */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E66F3CD128ADD9E8009AD05F /* XCRemoteSwiftPackageReference "Dwifft" */;
+			productName = Dwifft;
+		};
+		E66F3CD528ADDA3B009AD05F /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E66F3CD428ADDA3A009AD05F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		E66F3CD728ADDA3B009AD05F /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E66F3CD428ADDA3A009AD05F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		E66F3CD928ADDA3B009AD05F /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E66F3CD428ADDA3A009AD05F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		E66F3CDB28ADDA3B009AD05F /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E66F3CD428ADDA3A009AD05F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		E66F3CDD28ADDA3B009AD05F /* FirebasePerformance */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E66F3CD428ADDA3A009AD05F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebasePerformance;
+		};
+		E66F3CE028ADDA66009AD05F /* JLRoutes */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E66F3CDF28ADDA66009AD05F /* XCRemoteSwiftPackageReference "JLRoutes" */;
+			productName = JLRoutes;
 		};
 		E6FC7B9028AC477C00B6C850 /* FacebookCore */ = {
 			isa = XCSwiftPackageProductDependency;
