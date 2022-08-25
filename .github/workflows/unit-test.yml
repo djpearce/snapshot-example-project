@@ -21,7 +21,5 @@ jobs:
     - name: Add SSH fingerprints to Known Hosts
       run: for ip in $(dig @8.8.8.8 github.com +short); do ssh-keyscan github.com,$ip; ssh-keyscan $ip; done 2>/dev/null >> ~/.ssh/known_hosts
 
-
-    # This will build the app.
-    - name: Build
-      run: xcodebuild -scheme "ExampleProject" -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 8,OS=15.5'
+    - name: Resolve Swift Package dependencies 
+      run: xcodebuild -resolvePackageDependencies -scheme ExampleProject -project ./ExampleProject.xcodeproj

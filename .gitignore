@@ -1,0 +1,8 @@
+.DS_Store
+/.build
+/Packages
+DerivedData/
+.swiftpm/config/registries.json
+.netrc
+*.xcuserstate
+ExampleProject.xcodeproj/xcuserdata/dpearce.xcuserdatad/xcschemes/xcschememanagement.plist

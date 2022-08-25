@@ -17,6 +17,9 @@
 		9EB6A7D526E3EA4F007DEF4F /* ExampleProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB6A7D426E3EA4F007DEF4F /* ExampleProjectUITests.swift */; };
 		9EB6A7E426E3EA64007DEF4F /* FBSnapshotTestCase in Frameworks */ = {isa = PBXBuildFile; productRef = 9EB6A7E326E3EA64007DEF4F /* FBSnapshotTestCase */; };
 		9EB6A7E526E3EA64007DEF4F /* FBSnapshotTestCase in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 9EB6A7E326E3EA64007DEF4F /* FBSnapshotTestCase */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		E602FA7D28B805BF008317D7 /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = E602FA7C28B805BF008317D7 /* FacebookCore */; };
+		E602FA7F28B805BF008317D7 /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = E602FA7E28B805BF008317D7 /* FacebookLogin */; };
+		E602FA8128B805BF008317D7 /* FacebookShare in Frameworks */ = {isa = PBXBuildFile; productRef = E602FA8028B805BF008317D7 /* FacebookShare */; };
 		E66F3C9B28ADD721009AD05F /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = E66F3C9A28ADD721009AD05F /* Alamofire */; };
 		E66F3C9E28ADD73B009AD05F /* SwiftyJSONAPI in Frameworks */ = {isa = PBXBuildFile; productRef = E66F3C9D28ADD73B009AD05F /* SwiftyJSONAPI */; };
 		E66F3CA128ADD75A009AD05F /* OHHTTPStubs in Frameworks */ = {isa = PBXBuildFile; productRef = E66F3CA028ADD75A009AD05F /* OHHTTPStubs */; };
@@ -107,6 +110,7 @@
 				E66F3CDE28ADDA3B009AD05F /* FirebasePerformance in Frameworks */,
 				E66F3CA628ADD76F009AD05F /* Heap in Frameworks */,
 				E66F3CD028ADD9C4009AD05F /* GoogleSignInSwift in Frameworks */,
+				E602FA7F28B805BF008317D7 /* FacebookLogin in Frameworks */,
 				E66F3CD628ADDA3B009AD05F /* FirebaseAnalytics in Frameworks */,
 				9EB6A7E426E3EA64007DEF4F /* FBSnapshotTestCase in Frameworks */,
 				E6FC7B9128AC477C00B6C850 /* FacebookCore in Frameworks */,
@@ -117,6 +121,7 @@
 				E66F3CDA28ADDA3B009AD05F /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
 				E66F3CCB28ADD9B0009AD05F /* IQKeyboardManagerSwift in Frameworks */,
 				E66F3CC828ADD987009AD05F /* RealmSwift in Frameworks */,
+				E602FA7D28B805BF008317D7 /* FacebookCore in Frameworks */,
 				E66F3CB728ADD7FB009AD05F /* Nuke in Frameworks */,
 				E66F3CC328ADD8F4009AD05F /* kustomer-ios in Frameworks */,
 				E66F3CBD28ADD8AB009AD05F /* ReactiveCocoa in Frameworks */,
@@ -128,6 +133,7 @@
 				E66F3CAC28ADD7A3009AD05F /* SailthruMobile in Frameworks */,
 				E66F3CD328ADD9E9009AD05F /* Dwifft in Frameworks */,
 				E66F3C9E28ADD73B009AD05F /* SwiftyJSONAPI in Frameworks */,
+				E602FA8128B805BF008317D7 /* FacebookShare in Frameworks */,
 				E66F3CDC28ADDA3B009AD05F /* FirebaseCrashlytics in Frameworks */,
 				E66F3CBA28ADD818009AD05F /* ReactiveSwift in Frameworks */,
 				E66F3CA928ADD784009AD05F /* SnapKit in Frameworks */,
@@ -254,6 +260,9 @@
 				E66F3CDB28ADDA3B009AD05F /* FirebaseCrashlytics */,
 				E66F3CDD28ADDA3B009AD05F /* FirebasePerformance */,
 				E66F3CE028ADDA66009AD05F /* JLRoutes */,
+				E602FA7C28B805BF008317D7 /* FacebookCore */,
+				E602FA7E28B805BF008317D7 /* FacebookLogin */,
+				E602FA8028B805BF008317D7 /* FacebookShare */,
 			);
 			productName = ExampleProject;
 			productReference = 9EB6A7AF26E3EA4E007DEF4F /* ExampleProject.app */;
@@ -348,6 +357,7 @@
 				E66F3CD128ADD9E8009AD05F /* XCRemoteSwiftPackageReference "Dwifft" */,
 				E66F3CD428ADDA3A009AD05F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 				E66F3CDF28ADDA66009AD05F /* XCRemoteSwiftPackageReference "JLRoutes" */,
+				E602FA7B28B805BF008317D7 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
 			);
 			productRefGroup = 9EB6A7B026E3EA4E007DEF4F /* Products */;
 			projectDirPath = "";
@@ -731,12 +741,20 @@
 				version = 7.0.0;
 			};
 		};
+		E602FA7B28B805BF008317D7 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk";
+			requirement = {
+				kind = exactVersion;
+				version = 14.1.0;
+			};
+		};
 		E66F3C9928ADD721009AD05F /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 4.9.1;
+				kind = exactVersion;
+				version = 4.9.1;
 			};
 		};
 		E66F3C9C28ADD73B009AD05F /* XCRemoteSwiftPackageReference "SwiftyJSONAPI" */ = {
@@ -898,6 +916,21 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 9EB6A7E226E3EA64007DEF4F /* XCRemoteSwiftPackageReference "ios-snapshot-test-case" */;
 			productName = FBSnapshotTestCase;
+		};
+		E602FA7C28B805BF008317D7 /* FacebookCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E6FC7B8F28AC477C00B6C850 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookCore;
+		};
+		E602FA7E28B805BF008317D7 /* FacebookLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E6FC7B8F28AC477C00B6C850 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookLogin;
+		};
+		E602FA8028B805BF008317D7 /* FacebookShare */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E6FC7B8F28AC477C00B6C850 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookShare;
 		};
 		E66F3C9A28ADD721009AD05F /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
